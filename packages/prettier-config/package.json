@@ -11,5 +11,6 @@
     },
     "peerDependencies": {
         "prettier": "^2.2.1"
-    }
+    },
+    "gitHead": "cc2cb429f34df8bd47017cdee0b449dd56593542"
 }
