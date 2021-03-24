@@ -1,0 +1,19 @@
+{
+    "name": "@softshag/eslint-config-react",
+    "version": "0.0.1",
+    "main": "index.js",
+    "author": "Rasmus Kildevæld <rasmuskildevaeld@gmail.com>",
+    "license": "MIT",
+    "homepage": "https://github.com/kildevaeld/lint-config",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kildevaeld/lint-config.git"
+    },
+    "dependencies": {
+        "eslint-plugin-react": "^7.23.1",
+        "eslint-plugin-react-hooks": "^4.2.0"
+    },
+    "peerDependencies": {
+        "eslint": "^7.22.0"
+    }
+}

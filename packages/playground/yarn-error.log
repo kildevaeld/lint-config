@@ -1,0 +1,54 @@
+Arguments: 
+  /home/rasmus/.nodester/node/node-v12.18.4-linux-x64/bin/node /home/rasmus/.nodester/current/bin/yarn
+
+PATH: 
+  /home/rasmus/.cargo/bin:/home/rasmus/.nodester/current/bin:/home/rasmus/.cargo/bin:/home/rasmus/.nodester/current/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.18.4
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@softshag%2feslint-config-react: Not found
+      at Request.params.callback [as _callback] (/home/rasmus/.nodester/node/node-v12.18.4-linux-x64/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/home/rasmus/.nodester/node/node-v12.18.4-linux-x64/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/home/rasmus/.nodester/node/node-v12.18.4-linux-x64/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/home/rasmus/.nodester/node/node-v12.18.4-linux-x64/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1220:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+      "name": "playground",
+      "version": "1.0.0",
+      "main": "index.js",
+      "license": "MIT",
+      "private": true,
+      "dependencies": {
+        "@types/react": "^17.0.3",
+        "prettier": "^2.2.1",
+        "react": "^17.0.1"
+      },
+      "devDependencies": {
+        "@softshag/eslint-config-react": "*",
+        "@softshag/eslint-config": "*",
+        "@softshag/prettier-config": "*",
+        "eslint": "^7.21.0",
+        "typescript": "^4.2.3"
+      }
+    }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

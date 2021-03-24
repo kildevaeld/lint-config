@@ -1,0 +1,15 @@
+{
+    "name": "@softshag/prettier-config",
+    "version": "0.0.1",
+    "main": "index.js",
+    "author": "Rasmus Kildevæld <rasmuskildevaeld@gmail.com>",
+    "license": "MIT",
+    "homepage": "https://github.com/kildevaeld/lint-config",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kildevaeld/lint-config.git"
+    },
+    "peerDependencies": {
+        "prettier": "^2.2.1"
+    }
+}

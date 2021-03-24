@@ -1,0 +1,10 @@
+{
+    "env": {
+      "browser": true,
+      "es2020": true
+    },
+    "extends": [
+      "@softshag/eslint-config-react",
+      "@softshag/eslint-config"
+    ]
+  }
